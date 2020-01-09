@@ -42,7 +42,7 @@ namespace BerlinClock
             clock += Environment.NewLine +
                 new string('Y', _1minutes) + new string('O', 4 - _1minutes);
 
-            return clock.ToString();
+            return clock;
         }
     }
 }
